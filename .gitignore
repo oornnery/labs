@@ -1,0 +1,136 @@
+# ==============================
+# OS / Editor
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.pyre/
+.tox/
+.nox/
+
+.coverage
+.coverage.*
+htmlcov/
+
+dist/
+build/
+*.egg-info/
+
+# uv
+.uv/
+
+# ==============================
+# Rust
+# ==============================
+
+target/
+
+# ==============================
+# Node / JavaScript / TypeScript
+# ==============================
+
+node_modules/
+
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+*.tsbuildinfo
+
+# ==============================
+# Build / Cache
+# ==============================
+
+.cache/
+.cache-*/
+*_cache/
+**/*_cache/
+
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Coverage / Test output
+# ==============================
+
+coverage/
+.nyc_output/
+
+# ==============================
+# Databases / Local data
+# ==============================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# ==============================
+# Generated files
+# ==============================
+
+generated/
+generated/
+dist/
+build/
+
+# ==============================
+# Large / Local artifacts
+# ==============================
+
+*.bak
+*.swp
+*.dump
+*.tar
+*.tar.gz
+*.zip
+
+# ==============================
+# Local configuration
+# ==============================
+
+*.local
